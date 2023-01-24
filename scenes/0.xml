@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="1" extheight="640" extwidth="928" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="576" id="0" name="Level 1 tuto" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="864">
+    <layers>
+        <color-bg blue="255" green="255" red="204"/>
+        <layer blendMode="normal" color="204,255,255" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="2" c="false" group="0" id="3" name="Scientist 2" order="0" sx="1.0" sy="1.0" x="39" y="336" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,0.0,16.0,448.0,16.0,448.0,0.0,0.0,0.0" x="0.0" y="448.0"/>
+        <p pts="4,448.0,16.0,448.0,0.0,0.0,0.0,0.0,16.0" x="0.0" y="384.0"/>
+        <p pts="4,448.0,16.0,448.0,0.0,0.0,0.0,0.0,16.0" x="0.0" y="416.0"/>
+        <p pts="4,0.0,0.0,0.0,16.0,128.0,16.0,128.0,0.0" x="512.0" y="384.0"/>
+        <p pts="4,0.0,16.0,128.0,16.0,128.0,0.0,0.0,0.0" x="512.0" y="448.0"/>
+        <p pts="4,128.0,16.0,128.0,0.0,0.0,0.0,0.0,16.0" x="512.0" y="352.0"/>
+        <p pts="4,0.0,0.0,0.0,16.0,128.0,16.0,128.0,0.0" x="512.0" y="416.0"/>
+        <p pts="4,128.0,16.0,128.0,0.0,0.0,0.0,0.0,16.0" x="512.0" y="320.0"/>
+        <p pts="4,0.0,16.0,128.0,16.0,128.0,0.0,0.0,0.0" x="320.0" y="320.0"/>
+        <p pts="4,128.0,16.0,128.0,0.0,0.0,0.0,0.0,16.0" x="320.0" y="352.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>
