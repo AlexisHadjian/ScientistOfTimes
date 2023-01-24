@@ -3,36 +3,74 @@
     <group eventID="1" id="0">
         <step comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <set-xy comment="false" x="26" y="40">
+                <set-dxy comment="false" x="26" y="40">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="0"/>
-                    <get-val-3-2 comment="false" id="2" x="0" y="0"/>
-                </set-xy>
+                    <get-val-3-1 comment="false" id="2" x="0" y="0"/>
+                </set-dxy>
                 <if comment="false" x="26" y="72">
                     <group eventID="1" id="-1">
-                        <set-val-3-2 comment="false" x="37" y="105">
+                        <set-val-3-1 comment="false" x="37" y="105">
                             <minus comment="false" id="0" x="0" y="0">
-                                <get-val-3-2 comment="false" id="0" x="0" y="0"/>
+                                <get-val-3-1 comment="false" id="0" x="0" y="0"/>
                                 <int id="1" val="2"/>
                             </minus>
-                        </set-val-3-2>
+                        </set-val-3-1>
+                        <setanim comment="false" x="37" y="135">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Run Left"/>
+                        </setanim>
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                         <control eid="2" id="1"/>
                     </keystate>
                 </if>
-                <if comment="false" x="26" y="147">
+                <if comment="false" x="26" y="174">
                     <group eventID="1" id="-1">
-                        <set-val-3-2 comment="false" x="37" y="180">
+                        <set-val-3-1 comment="false" x="37" y="207">
                             <plus comment="false" id="0" x="0" y="0">
-                                <get-val-3-2 comment="false" id="0" x="0" y="0"/>
+                                <get-val-3-1 comment="false" id="0" x="0" y="0"/>
                                 <int id="1" val="2"/>
                             </plus>
-                        </set-val-3-2>
+                        </set-val-3-1>
+                        <setanim comment="false" x="37" y="237">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Run Right"/>
+                        </setanim>
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
+                        <control eid="3" id="1"/>
+                    </keystate>
+                </if>
+                <set-val-3-1 comment="false" x="26" y="276">
+                    <times comment="false" id="0" x="0" y="0">
+                        <get-val-3-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0.9"/>
+                    </times>
+                </set-val-3-1>
+                <if comment="false" x="26" y="306">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="339">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Idle Left"/>
+                        </setanim>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
+                        <control eid="2" id="1"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="378">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="411">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Idle Right"/>
+                        </setanim>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
                         <control eid="3" id="1"/>
                     </keystate>
                 </if>
@@ -43,9 +81,9 @@
     <group eventID="2" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <set-val-3-2 comment="false" x="26" y="40">
+                <set-val-3-1 comment="false" x="26" y="40">
                     <int id="0" val="0"/>
-                </set-val-3-2>
+                </set-val-3-1>
             </group>
         </init>
     </group>

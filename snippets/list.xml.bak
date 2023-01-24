@@ -12,12 +12,20 @@
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_3_3_Walking" classname="scripts.Design_3_3_Walking" desc="" description="" design="true" drawOrder="0" id="3" name="Walking" oid="-1" package="scripts" shared="false" type="actor">
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
-        <actor default="" defaultValue="" desc="" dropdown="" fullname="xVel" hidden="false" id="1" name="_xVel" order="1"/>
-        <number default="0" defaultValue="0" desc="" dropdown="" fullname="velX" hidden="false" id="2" name="_velX" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="xVel" hidden="false" id="1" name="_xVel" order="1"/>
         <blocks/>
         <events>
-            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="Set Vel" enabled="true" id="2" name="init" order="2" repeats="true"/>
+            <event displayName="Walk" enabled="true" id="1" name="step" order="1" repeats="false"/>
+            <event displayName="Set Vel" enabled="true" id="2" name="init" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_4_4_Jump" classname="scripts.Design_4_4_Jump" desc="" description="" design="true" drawOrder="0" id="4" name="Jump" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="touchingFloor" hidden="false" id="1" name="_touchingFloor" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Jump" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Actor - Group" enabled="true" id="2" name="event-collide-actortogroup" order="2" repeats="false"/>
         </events>
     </snippet>
 </pack>
