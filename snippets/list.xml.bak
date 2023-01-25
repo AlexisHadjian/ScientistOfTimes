@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
+    <snippet actorid="58" attachedevent="true" class="scripts.ActorEvents_58" classname="scripts.ActorEvents_58" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="16" name="ActorEvents_58" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" shared="false" type="scene">
         <blocks/>
         <events>
@@ -55,12 +59,25 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_12_12_DieAfterTime" classname="scripts.Design_12_12_DieAfterTime" desc="Make the actor die after a certain time. Good for transient (temporary) actors." description="Make the actor die after a certain time. Good for transient (temporary) actors." design="true" drawOrder="0" id="12" name="Die After Time" oid="-1" package="" shared="false" type="actor">
-        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
-        <number default="1.0" defaultValue="1.0" desc="In seconds." dropdown="" fullname="Time Before Death" hidden="false" id="1" name="time" order="0"/>
-        <boolean default="false" defaultValue="false" desc="The actor can optionally fade out before it dies." dropdown="" fullname="Fade Out?" hidden="false" id="2" name="fadeOut" order="1"/>
-        <number default="0" defaultValue="0" desc="If fading out, specifies the duration of the fade in seconds." dropdown="" fullname="Fade Duration" hidden="false" id="3" name="fadeDuration" order="2"/>
+    <snippet actorid="55" attachedevent="true" class="scripts.ActorEvents_55" classname="scripts.ActorEvents_55" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="13" name="ActorEvents_55" oid="-1" package="scripts." shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="badiesVel" hidden="false" id="1" name="_badiesVel" order="0"/>
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Actor - Group" enabled="true" id="2" name="event-collide-actortogroup" order="2" repeats="true"/>
+            <event displayName="Type - Type" enabled="true" id="3" name="event-collide-typetotype" order="3" repeats="true"/>
+            <event displayName="Created" enabled="true" id="4" name="init" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_14_14_Badiesmechanic" classname="scripts.Design_14_14_Badiesmechanic" desc="" description="" design="true" drawOrder="0" id="14" name="Badies mechanic" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="badiesVel" hidden="false" id="1" name="_badiesVel" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="4" repeats="true"/>
+            <event displayName="Actor - Group" enabled="true" id="3" name="event-collide-actortogroup" order="2" repeats="true"/>
+            <event displayName="Type - Type" enabled="true" id="4" name="event-collide-typetotype" order="3" repeats="true"/>
+        </events>
     </snippet>
 </pack>

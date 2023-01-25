@@ -10,7 +10,8 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="2" c="false" group="0" id="3" name="Scientist 2" order="0" sx="1.0" sy="1.0" x="39" y="336" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="3" name="Scientist 2" order="0" sx="1.0" sy="1.0" x="39" y="336" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="4" id="55" name="Dino Trex 3" order="1" sx="1.0" sy="1.0" x="1625" y="324" z="0"/>
     </actors>
     <snippets/>
     <terrain>

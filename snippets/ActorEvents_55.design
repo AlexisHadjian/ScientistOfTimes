@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-dxy comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <get-val-13-1 comment="false" id="2" x="0" y="0"/>
+                </set-dxy>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <collision-foreach comment="false" x="26" y="47">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="37" y="67">
+                            <group eventID="3" id="-1">
+                                <if comment="false" x="48" y="97">
+                                    <group eventID="3" id="-1">
+                                        <set-val-13-1 comment="false" x="59" y="135">
+                                            <int id="0" val="-5"/>
+                                        </set-val-13-1>
+                                    </group>
+                                    <more comment="false" id="0" x="0" y="0">
+                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-dxy>
+                                        <int id="1" val="0"/>
+                                    </more>
+                                </if>
+                                <if comment="false" x="48" y="167">
+                                    <group eventID="3" id="-1">
+                                        <set-val-13-1 comment="false" x="59" y="205">
+                                            <int id="0" val="5"/>
+                                        </set-val-13-1>
+                                    </group>
+                                    <less comment="false" id="0" x="0" y="0">
+                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-dxy>
+                                        <int id="1" val="0"/>
+                                    </less>
+                                </if>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <tile-data-for-collision comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="endPoint"/>
+                            </eq>
+                        </if>
+                    </group>
+                </collision-foreach>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="1" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="26" y="47">
+                    <second-actor comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="explo"/>
+                </setanim>
+                <die comment="false" x="26" y="79">
+                    <first-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+                <dolater comment="false" x="26" y="111">
+                    <group eventID="4" id="-1">
+                        <die comment="false" x="37" y="138">
+                            <second-actor comment="false" id="0" x="0" y="0"/>
+                        </die>
+                    </group>
+                    <int id="0" val="0.5"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <actortype eid="49" id="0"/>
+            <actortype eid="55" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-13-1 comment="false" x="26" y="40">
+                    <int id="0" val="5"/>
+                </set-val-13-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>
