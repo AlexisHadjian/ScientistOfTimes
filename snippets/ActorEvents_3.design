@@ -1,2 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-grouptogroup comment="false" x="8" y="24">
+            <group eventID="1" id="-1">
+                <setanim comment="false" x="19" y="56">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Dead"/>
+                </setanim>
+                <dolater comment="false" x="19" y="83">
+                    <group eventID="1" id="-1">
+                        <scene-reload-color comment="false" x="30" y="110">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0.5"/>
+                            <color b="0" g="0" id="2" r="0"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0.5"/>
+                            <color b="0" g="0" id="5" r="0"/>
+                        </scene-reload-color>
+                    </group>
+                    <int id="0" val="0.6"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <actorgroup eid="3" id="0"/>
+            <actorgroup eid="5" id="1"/>
+        </event-collide-grouptogroup>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-grouptogroup comment="false" x="8" y="24">
+            <group eventID="1" id="-1">
+                <setanim comment="false" x="19" y="56">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Dead"/>
+                </setanim>
+                <dolater comment="false" x="19" y="83">
+                    <group eventID="1" id="-1">
+                        <scene-reload-color comment="false" x="30" y="110">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0.5"/>
+                            <color b="0" g="0" id="2" r="0"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0.5"/>
+                            <color b="0" g="0" id="5" r="0"/>
+                        </scene-reload-color>
+                    </group>
+                    <int id="0" val="0.6"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <actorgroup eid="3" id="0"/>
+            <actorgroup eid="4" id="1"/>
+        </event-collide-grouptogroup>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

@@ -6,29 +6,63 @@
     <custom-block blocktag="custom-13" blocktype="NORMAL" code="(.say(&quot;walking test&quot;, &quot;_customBlock_AtMaxWalkingSpeed&quot;) : Bool)" desc="" global="false" gui="%0 At Max Walking Speed" id="13" message="AtMaxWalkingSpeed" name="AtMaxWalkingSpeed" oid="-1" return="boolean" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="actor"/>
     </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="19" fixedrot="true" fric="0.2" gid="4" id="68" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Bird" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="69" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="69" name="Bird" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="21" id="0" loop="true" name="Idle Left" numframes="1" originx="15" originy="10" sync="false" version="2" width="30">
+            <poly data="4,0,0,36,0,36,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Left" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="36" id="1" loop="true" name="Idle Right" numframes="1" originx="18" originy="18" sync="false" version="2" width="36">
+            <poly data="4,0,0,36,0,36,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Right" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="192" id="2" loop="true" name="explo" numframes="7" originx="32" originy="32" sync="false" version="2" width="192">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="explo" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="21" id="3" loop="true" name="Run Left" numframes="2" originx="15" originy="10" sync="false" version="2" width="60">
+            <poly data="4,0,0,36,0,36,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="Run Left" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="36" id="4" loop="true" name="Run Right" numframes="2" originx="18" originy="18" sync="false" version="2" width="72">
+            <poly data="4,0,0,36,0,36,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="Run Right" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <tileset across="1" atlasID="0" desc="" down="1" id="45" name="demi eau" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="2" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
     <tileset across="1" atlasID="0" desc="" down="1" id="42" name="demi lave" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="2" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="13" fixedrot="false" fric="0.2" gid="4" id="55" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Dino Trex" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="56" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="13" fixedrot="true" fric="0.2" gid="4" id="55" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Dino Trex" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="56" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="56" name="Dino Trex" readable="false" shared="false">
-        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Idle Left" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Left" rest="0.0" sensor="false"/>
+        <anim across="1" down="1" durations="100" height="36" id="0" loop="true" name="Idle Left" numframes="1" originx="18" originy="18" sync="false" version="2" width="36">
+            <poly data="4,0,0,36,0,36,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Left" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="32" id="1" loop="true" name="Idle Right" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Right" rest="0.0" sensor="false"/>
+        <anim across="1" down="1" durations="100" height="36" id="1" loop="true" name="Idle Right" numframes="1" originx="18" originy="18" sync="false" version="2" width="36">
+            <poly data="4,0,0,36,0,36,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Right" rest="0.0" sensor="false"/>
         </anim>
         <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="192" id="2" loop="true" name="explo" numframes="7" originx="32" originy="32" sync="false" version="2" width="192">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="explo" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="36" id="3" loop="true" name="Run Left" numframes="2" originx="18" originy="18" sync="false" version="2" width="72">
+            <poly data="4,0,0,36,0,36,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="Run Left" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="36" id="4" loop="true" name="Run Right" numframes="2" originx="18" originy="18" sync="false" version="2" width="72">
+            <poly data="4,0,0,36,0,36,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="Run Right" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <tileset across="1" atlasID="0" desc="" down="1" id="44" name="eau" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="It's a glowing red bullet." eventsnippetid="17" fixedrot="true" fric="0.2" gid="0" id="62" ignoreg="true" inertia="0.01" ldamp="0.0" mass="0.1" name="Enemy Bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="63" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="63" name="Enemy Bullet" readable="false" shared="false">
+        <anim across="2" down="2" durations="100,100,100" height="64" id="0" loop="true" name="Animation 0" numframes="3" originx="16" originy="16" sync="false" version="2" width="64">
+            <circle data="6,10,10" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="16" fixedrot="true" fric="0.2" gid="2" id="58" ignoreg="true" inertia="0.01" ldamp="0.0" mass="0.1" name="Explosion" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="59" static="false">
         <snippets/>
     </actor>
@@ -81,17 +115,12 @@
         <blank name="Self" order="0" type="actor"/>
         <blank name="MaxSpeed" order="1" type="number"/>
     </custom-block>
-    <tileset across="1" atlasID="0" desc="" down="1" id="53" name="Pierre" oid="-1" readable="false" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    <tileset across="1" atlasID="0" desc="Animated water tile from OpenGameArt.org, part of the overworld tileset.&#10;&#10;http://opengameart.org/content/worldmapoverworld-tileset&#10;&#10;CC-BY 3.0&#10;Author: &quot;MrBeast&quot;&#10;If you use this tileset please provide a link back to http://opengameart.org/ as part of the attribution.&#10;&#10;Use as a background layer along with &quot;OpenGameArt Overworld&quot;" down="1" id="65" name="OpenGameArt Animated Water" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="1" data="" durations="200,200,200,200,200,200,200,200,200,200,200,200,200,200,200" frames="0" id="0" order="-1"/>
     </tileset>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="10" fixedrot="false" fric="0.2" gid="0" id="49" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Player Bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="50" static="false">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="50" name="Player Bullet" readable="false" shared="false">
-        <anim across="2" down="2" durations="100,100,100" height="64" id="0" loop="true" name="Bullet" numframes="3" originx="16" originy="16" sync="false" version="2" width="64">
-            <poly data="4,5,27,27,27,27,5,5,5" density="0.1" fric="0.2" gid="5" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
+    <tileset across="1" atlasID="0" desc="" down="1" id="53" name="Pierre" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
     <custom-block blocktag="custom-9" blocktype="ACTION" code=".say(&quot;Walking&quot;, &quot;_customBlock_PreventWalk&quot;, []);" desc="" global="false" gui="Set Prevent Walk for %0 to %1" id="9" message="PreventWalk" name="PreventWalk" oid="-1" return="void" shared="false" snippetID="3">
         <blank name="Self" order="0" type="actor"/>
         <blank name="Prevent" order="1" type="boolean"/>
@@ -122,7 +151,7 @@
             </s>
         </snippets>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="4" name="Scientist" readable="false" shared="false">
+    <sprite atlasID="0" default="3" defaultAnimation="3" desc="" id="4" name="Scientist" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="48" id="0" loop="true" name="Waiting" numframes="1" originx="16" originy="24" sync="false" version="2" width="32">
             <poly data="4,0,48,32,48,32,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Waiting" rest="0.0" sensor="false"/>
         </anim>
@@ -144,13 +173,13 @@
         <anim across="1" down="1" durations="100" height="48" id="6" loop="true" name="Jump Right" numframes="1" originx="16" originy="24" sync="false" version="2" width="32">
             <poly data="4,0,48,32,48,32,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Jump Right" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="48" id="7" loop="true" name="Dead" numframes="1" originx="16" originy="24" sync="false" version="2" width="32">
-            <poly data="4,0,48,32,48,32,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 7" rest="0.0" sensor="false"/>
+        <anim across="2" down="2" durations="300,300,300,300" height="144" id="7" loop="true" name="Dead" numframes="4" originx="36" originy="36" sync="false" version="2" width="144">
+            <poly data="4,20,58,52,58,52,10,20,10" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 7" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="1" durations="100,100" height="48" id="8" loop="true" name="Shoot Left" numframes="2" originx="16" originy="24" sync="false" version="2" width="64">
+        <anim across="2" down="1" durations="50,1000" height="48" id="8" loop="true" name="Shoot Left" numframes="2" originx="16" originy="24" sync="false" version="2" width="64">
             <poly data="4,0,48,32,48,32,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Shoot Left" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="1" durations="100,100" height="48" id="9" loop="true" name="Shoot Right" numframes="2" originx="16" originy="24" sync="false" version="2" width="64">
+        <anim across="2" down="1" durations="50,1000" height="48" id="9" loop="true" name="Shoot Right" numframes="2" originx="16" originy="24" sync="false" version="2" width="64">
             <poly data="4,0,48,32,48,32,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Shoot Right" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
@@ -172,6 +201,9 @@
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
     <tileset across="1" atlasID="0" desc="" down="1" id="23" name="Terre Burlee milieu" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="64" name="Terre verte" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
     <tileset across="1" atlasID="0" desc="" down="1" id="39" name="Terre verte coin droite" oid="-1" readable="false" shared="false" th="32" tw="32">
@@ -203,4 +235,12 @@
         <blank name="Self" order="0" type="actor"/>
         <blank name="Accel" order="1" type="number"/>
     </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="18" fixedrot="true" fric="0.2" gid="5" id="66" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Water" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="67" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="67" name="Water" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="128" id="0" loop="true" name="Animation 0" numframes="1" originx="64" originy="64" sync="false" version="2" width="128">
+            <poly data="4,0,0,128,0,128,128,0,128" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
 </pack>
