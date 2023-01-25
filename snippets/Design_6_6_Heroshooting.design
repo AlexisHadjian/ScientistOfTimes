@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-val-6-1 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-6-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <create-actor3 comment="false" x="37" y="78">
+                            <actortype eid="49" id="0"/>
+                            <get-xy comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                            <get-xy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                        <if comment="false" x="37" y="118">
+                            <group eventID="2" id="-1">
+                                <set-dxy comment="false" x="48" y="161">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="-80"/>
+                                </set-dxy>
+                            </group>
+                            <or comment="false" id="0" x="0" y="0">
+                                <eq comment="false" id="0" x="0" y="0">
+                                    <getanim comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </getanim>
+                                    <int id="1" val="Run Left"/>
+                                </eq>
+                                <eq comment="false" id="1" x="0" y="0">
+                                    <getanim comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </getanim>
+                                    <int id="1" val="Idle Left"/>
+                                </eq>
+                            </or>
+                        </if>
+                        <if comment="false" x="37" y="200">
+                            <group eventID="2" id="-1">
+                                <set-dxy comment="false" x="48" y="243">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="80"/>
+                                </set-dxy>
+                            </group>
+                            <or comment="false" id="0" x="0" y="0">
+                                <eq comment="false" id="0" x="0" y="0">
+                                    <getanim comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </getanim>
+                                    <int id="1" val="Run Right"/>
+                                </eq>
+                                <eq comment="false" id="1" x="0" y="0">
+                                    <getanim comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </getanim>
+                                    <int id="1" val="Idle Right"/>
+                                </eq>
+                            </or>
+                        </if>
+                        <set-val-6-1 comment="false" x="37" y="282">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-6-1>
+                        <dolater comment="false" x="37" y="307">
+                            <group eventID="2" id="-1">
+                                <set-val-6-1 comment="false" x="48" y="334">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-6-1>
+                                <die comment="false" x="48" y="359">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                </die>
+                            </group>
+                            <int id="0" val="0.5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <keystate comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <control eid="7" id="1"/>
+                        </keystate>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-val-6-1 comment="false" id="0" x="0" y="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

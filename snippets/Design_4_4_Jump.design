@@ -35,6 +35,49 @@
                 <set-val-4-1 comment="false" x="26" y="47">
                     <true comment="false" id="0" x="0" y="0"/>
                 </set-val-4-1>
+                <if comment="false" x="26" y="72">
+                    <group eventID="2" id="-1">
+                        <set-val-4-1 comment="false" x="37" y="115">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-4-1>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <or comment="false" id="0" x="0" y="0">
+                            <collision-left comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <int id="1" val="0"/>
+                            </collision-left>
+                            <collision-right comment="false" id="1" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <int id="1" val="0"/>
+                            </collision-right>
+                        </or>
+                        <collision-top comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0"/>
+                        </collision-top>
+                    </or>
+                </if>
+                <if comment="false" x="26" y="152">
+                    <group eventID="2" id="-1">
+                        <set-val-4-2 comment="false" x="37" y="190">
+                            <times comment="false" id="0" x="0" y="0">
+                                <get-val-4-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="-1"/>
+                            </times>
+                        </set-val-4-2>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <collision-left comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0"/>
+                        </collision-left>
+                        <collision-right comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0"/>
+                        </collision-right>
+                    </or>
+                </if>
             </group>
             <ACTOR eid="this" id="0"/>
             <actorgroup eid="1" id="1"/>
@@ -43,4 +86,14 @@
     <group eventID="2" id="-1">
         <collide-member-of-group comment="false" x="360" y="23"/>
     </group>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-val-4-2 comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                </set-val-4-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>
