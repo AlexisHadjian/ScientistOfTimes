@@ -10,4 +10,31 @@
         </step>
     </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="85" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="Annee : -1300 av JC"/>
+                    <int id="1" val="20"/>
+                    <int id="2" val="20"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <stop-sounds comment="false" x="26" y="40"/>
+                <play-sound4 comment="false" x="26" y="60">
+                    <int id="0" val="0"/>
+                    <sound eid="114" id="1"/>
+                </play-sound4>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>

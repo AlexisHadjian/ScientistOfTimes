@@ -27,20 +27,24 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <if comment="false" x="37" y="118">
+                        <play-sound4 comment="false" x="37" y="118">
+                            <int id="0" val="0"/>
+                            <sound eid="113" id="1"/>
+                        </play-sound4>
+                        <if comment="false" x="37" y="145">
                             <group eventID="2" id="-1">
-                                <set-dxy comment="false" x="48" y="156">
+                                <set-dxy comment="false" x="48" y="183">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="-80"/>
                                 </set-dxy>
-                                <setanim comment="false" x="48" y="183">
+                                <setanim comment="false" x="48" y="210">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="Shoot Left"/>
                                 </setanim>
-                                <dolater comment="false" x="48" y="210">
+                                <dolater comment="false" x="48" y="237">
                                     <group eventID="2" id="-1">
-                                        <setanim comment="false" x="59" y="237">
+                                        <setanim comment="false" x="59" y="264">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="Idle Left"/>
                                         </setanim>
@@ -56,20 +60,20 @@
                                 <int id="1" val="Run Left"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="288">
+                        <if comment="false" x="37" y="315">
                             <group eventID="2" id="-1">
-                                <set-dxy comment="false" x="48" y="326">
+                                <set-dxy comment="false" x="48" y="353">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="-80"/>
                                 </set-dxy>
-                                <setanim comment="false" x="48" y="353">
+                                <setanim comment="false" x="48" y="380">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="Shoot Left"/>
                                 </setanim>
-                                <dolater comment="false" x="48" y="380">
+                                <dolater comment="false" x="48" y="407">
                                     <group eventID="2" id="-1">
-                                        <setanim comment="false" x="59" y="407">
+                                        <setanim comment="false" x="59" y="434">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="Idle Left"/>
                                         </setanim>
@@ -85,20 +89,20 @@
                                 <int id="1" val="Idle Left"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="458">
+                        <if comment="false" x="37" y="485">
                             <group eventID="2" id="-1">
-                                <set-dxy comment="false" x="48" y="496">
+                                <set-dxy comment="false" x="48" y="523">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="80"/>
                                 </set-dxy>
-                                <setanim comment="false" x="48" y="523">
+                                <setanim comment="false" x="48" y="550">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="Shoot Right"/>
                                 </setanim>
-                                <dolater comment="false" x="48" y="550">
+                                <dolater comment="false" x="48" y="577">
                                     <group eventID="2" id="-1">
-                                        <setanim comment="false" x="59" y="577">
+                                        <setanim comment="false" x="59" y="604">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="Idle Right"/>
                                         </setanim>
@@ -114,20 +118,20 @@
                                 <int id="1" val="Run Right"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="628">
+                        <if comment="false" x="37" y="655">
                             <group eventID="2" id="-1">
-                                <set-dxy comment="false" x="48" y="666">
+                                <set-dxy comment="false" x="48" y="693">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="80"/>
                                 </set-dxy>
-                                <setanim comment="false" x="48" y="693">
+                                <setanim comment="false" x="48" y="720">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="Shoot Right"/>
                                 </setanim>
-                                <dolater comment="false" x="48" y="720">
+                                <dolater comment="false" x="48" y="747">
                                     <group eventID="2" id="-1">
-                                        <setanim comment="false" x="59" y="747">
+                                        <setanim comment="false" x="59" y="774">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="Idle Right"/>
                                         </setanim>
@@ -143,15 +147,15 @@
                                 <int id="1" val="Idle Right"/>
                             </eq>
                         </if>
-                        <set-val-6-1 comment="false" x="37" y="798">
+                        <set-val-6-1 comment="false" x="37" y="825">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-6-1>
-                        <dolater comment="false" x="37" y="823">
+                        <dolater comment="false" x="37" y="850">
                             <group eventID="2" id="-1">
-                                <set-val-6-1 comment="false" x="48" y="850">
+                                <set-val-6-1 comment="false" x="48" y="877">
                                     <true comment="false" id="0" x="0" y="0"/>
                                 </set-val-6-1>
-                                <die comment="false" x="48" y="875">
+                                <die comment="false" x="48" y="902">
                                     <ACTOR eid="lastcreated" id="0"/>
                                 </die>
                             </group>

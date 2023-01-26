@@ -17,7 +17,7 @@
                     <font eid="85" id="0"/>
                 </set-font-new>
                 <draw-text comment="false" x="26" y="67">
-                    <int id="0" val="Annee : -200 000 000"/>
+                    <int id="0" val="Annee : -200 000 000 av JC"/>
                     <int id="1" val="20"/>
                     <int id="2" val="20"/>
                 </draw-text>

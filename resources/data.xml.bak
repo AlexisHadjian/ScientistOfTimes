@@ -6,7 +6,17 @@
     <custom-block blocktag="custom-13" blocktype="NORMAL" code="(.say(&quot;walking test&quot;, &quot;_customBlock_AtMaxWalkingSpeed&quot;) : Bool)" desc="" global="false" gui="%0 At Max Walking Speed" id="13" message="AtMaxWalkingSpeed" name="AtMaxWalkingSpeed" oid="-1" return="boolean" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="actor"/>
     </custom-block>
+    <tileset across="1" atlasID="0" desc="" down="1" id="99" name="back stone" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="100" name="back stone 1" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="101" name="back stone 2" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
     <music atlasID="0" desc="" id="89" loop="true" name="BG Level 1" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="114" loop="true" name="BG Level 2" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="32 Pixel outlined Bionic Comic." height="19" id="85" name="Bionic Commic 32" offsets="0|0|0|,11|0|11,21|0|21,31|0|31,49|0|49,65|0|65,78|0|78,95|0|95,102|0|102,115|0|115,127|0|127,139|0|139,147|0|147,157|0|157,165|0|165,172|0|172,186|0|186,201|0|201,217|0|217,233|0|233,247|0|247,262|0|262,277|0|277,293|0|293,309|0|309,326|0|326,343|0|343,352|0|352,364|0|364,379|0|379,389|0|389,404|0|404,421|0|421,440|0|440,458|0|458,474|0|474,490|0|490,506|0|506,521|0|521,538|0|538,555|0|555,574|0|574,592|0|592,609|0|609,629|0|629,641|0|641,665|0|665,685|0|685,700|0|700,717|0|717,732|0|732,750|0|750,766|0|766,781|0|781,800|0|800,815|0|815,840|0|840,856|0|856,874|0|874,889|0|889,902|0|902,908|0|908,921|0|921,930|0|930,945|0|945,951|0|951,966|0|966,982|0|982,998|0|998,1014|0|1014,1030|0|1030,1046|0|1046,1062|0|1062,1078|0|1078,1087|0|1087,1104|0|1104,1123|0|1123,1136|0|1136,1158|0|1158,1177|0|1177,1193|0|1193,1210|0|1210,1226|0|1226,1243|0|1243,1258|0|1258,1273|0|1273,1290|0|1290,1307|0|1307,1329|0|1329,1345|0|1345,1363|0|1363,1378|0|1378,1388|0|1388,1396|0|1396,1408|0|1408,1420|0|1420,1421|0|1421,1422|0|1422,1423|0|1423,1424|0|1424,1425|0|1425,1426|0|1426,1427|0|1427,1428|0|1428,1429|0|1429,1430|0|1430,1431|0|1431,1432|0|1432,1433|0|1433,1434|0|1434,1435|0|1435,1436|0|1436,1437|0|1437,1438|0|1438,1439|0|1439,1440|0|1440,1441|0|1441,1442|0|1442,1443|0|1443,1444|0|1444,1445|0|1445,1446|0|1446,1447|0|1447,1448|0|1448,1449|0|1449,1450|0|1450,1451|0|1451,1452|0|1452,1453|0|1453,1464|0|1464,1474|0|1474,1490|0|1490,1504|0|1504,1520|0|1520,1538|0|1538,1547|0|1547,1562|0|1562,1572|0|1572,1588|0|1588,1598|0|1598,1608|0|1608,1620|0|1620,1628|0|1628,1644|0|1644,1659|0|1659,1668|0|1668,1678|0|1678,1688|0|1688,1697|0|1697,1705|0|1705,1723|0|1723,1741|0|1741,1749|0|1749,1758|0|1758,1767|0|1767,1776|0|1776,1787|0|1787,1806|0|1806,1825|0|1825,1843|0|1843,1861|0|1861,1879|0|1879,1897|0|1897,1915|0|1915,1933|0|1933,1951|0|1951,1969|0|1969,1993|0|1993,2009|0|2009,2024|0|2024,2039|0|2039,2054|0|2054,2069|0|2069,2087|0|2087,2105|0|2105,2123|0|2123,2141|0|2141,2157|0|2157,2177|0|2177,2192|0|2192,2207|0|2207,2222|0|2222,2238|0|2238,2253|0|2253,2265|0|2265,2280|0|2280,2299|0|2299,2318|0|2318,2337|0|2337,2356|0|2356,2374|0|2374,2390|0|2390,2406|0|2406,2421|0|2421,2436|0|2436,2451|0|2451,2467|0|2467,2483|0|2483,2498|0|2498,2521|0|2521,2537|0|2537,2553|0|2553,2569|0|2569,2585|0|2585,2601|0|2601,2612|0|2612,2623|0|2623,2635|0|2635,2647|0|2647,2664|0|2664,2683|0|2683,2699|0|2699,2715|0|2715,2731|0|2731,2748|0|2748,2764|0|2764,2776|0|2776,2792|0|2792,2809|0|2809,2826|0|2826,2843|0|2843,2860|0|2860,2878|0|2878,2895|0|2895,2913|0|2913,2914|0|2914,2915|0|2915,2916|0|2916,2917|0|2917,2918|0|2918,2919|0|2919,2920|0|2920,2921|0|2921,2922|0|2922,2923|0|2923,2924|0|2924,2925|0|2925,2926|0|2926,2927|0|2927,2928|0|2928,2929|0|2929,2930|0|2930,2931|0|2931,2932|0|2932,2933|0|2933,2934|0|2934,2935|0|2935,2936|0|2936,2937|0|2937,2938|0|2938,2939|0|2939,2940|0|2940,2941|0|2941,2942|0|2942,2943|0|2943,2944|0|2944,2945|0|2945,2946|0|2946,2947|0|2947,2948|0|2948,2949|0|2949,2950|0|2950,2951|0|2951,2952|0|2952,2953|0|2953,2954|0|2954,2955|0|2955,2956|0|2956,2957|0|2957,2958|0|2958,2959|0|2959,2960|0|2960,2961|0|2961,2962|0|2962,2963|0|2963,2964|0|2964,2965|0|2965,2966|0|2966,2967|0|2967,2968|0|2968,2969|0|2969,2970|0|2970,2971|0|2971,2972|0|2972,2973|0|2973,2974|0|2974,2975|0|2975,2976|0|2976,2977|0|2977,2978|0|2978,2979|0|2979,2980|0|2980,2981|0|2981,2982|0|2982,2983|0|2983,2984|0|2984,2985|0|2985,2986|0|2986,2987|0|2987,2988|0|2988,2989|0|2989,2990|0|2990,2991|0|2991,2992|0|2992,2993|0|2993,2994|0|2994,2995|0|2995,3019|0|3019,3043|0|3043,3044|0|3044,3045|0|3045,3046|0|3046,3047|0|3047,3048|0|3048,3049|0|3049,3050|0|3050,3051|0|3051,3052|0|3052,3053|0|3053,3054|0|3054,3055|0|3055,3071|0|3071,3087|0|3087,3088|0|3088,3089|0|3089,3090|0|3090,3091|0|3091,3092|0|3092,3093|0|3093,3094|0|3094,3095|0|3095,3096|0|3096,3097|0|3097,3098|0|3098,3099|0|3099,3100|0|3100,3101|0|3101,3102|0|3102,3103|0|3103,3104|0|3104,3105|0|3105,3106|0|3106,3107|0|3107,3108|0|3108,3109|0|3109,3127|0|3127,3128|0|3128,3129|0|3129,3130|0|3130,3131|0|3131,3146|0|3146" oid="-1" prerendered="false" readable="false" rowHeight="19" shared="false"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="19" fixedrot="true" fric="0.2" gid="4" id="68" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Bird" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="69" static="false">
         <snippets/>
@@ -120,6 +130,7 @@
         <tile collision="0" data="endPoint" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="82" name="Intro bg" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
+    <music atlasID="0" desc="" id="116" loop="true" name="Jump" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <tileset across="1" atlasID="0" desc="" down="1" id="43" name="lave" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
@@ -141,17 +152,58 @@
         <blank name="Self" order="0" type="actor"/>
         <blank name="MaxSpeed" order="1" type="number"/>
     </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="27" fixedrot="true" fric="0.2" gid="4" id="119" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Momi" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="120" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="120" name="Momi" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="59" id="0" loop="true" name="Idle Left" numframes="1" originx="20" originy="29" sync="false" version="2" width="40">
+            <poly data="4,0,60,41,60,41,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Left" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="59" id="1" loop="true" name="Idle Right" numframes="1" originx="20" originy="29" sync="false" version="2" width="40">
+            <poly data="4,0,60,41,60,41,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Right" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="192" id="2" loop="true" name="explo" numframes="7" originx="32" originy="32" sync="false" version="2" width="192">
+            <poly data="4,0,64,64,64,64,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="explo" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="59" id="3" loop="true" name="Run Left" numframes="2" originx="20" originy="29" sync="false" version="2" width="80">
+            <poly data="4,0,60,41,60,41,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Run Left" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="59" id="4" loop="true" name="Run Right" numframes="2" originx="20" originy="29" sync="false" version="2" width="80">
+            <poly data="4,0,60,41,60,41,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Run Right" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <tileset across="1" atlasID="0" desc="Animated water tile from OpenGameArt.org, part of the overworld tileset.&#10;&#10;http://opengameart.org/content/worldmapoverworld-tileset&#10;&#10;CC-BY 3.0&#10;Author: &quot;MrBeast&quot;&#10;If you use this tileset please provide a link back to http://opengameart.org/ as part of the attribution.&#10;&#10;Use as a background layer along with &quot;OpenGameArt Overworld&quot;" down="1" id="65" name="OpenGameArt Animated Water" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="1" data="" durations="200,200,200,200,200,200,200,200,200,200,200,200,200,200,200" frames="0" id="0" order="-1"/>
     </tileset>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="117" name="Outro bg" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <tileset across="1" atlasID="0" desc="" down="1" id="53" name="Pierre" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="5" atlasID="0" desc="" down="2" id="103" name="Pillar mid" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="1" id="2" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="2" id="4" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="3" id="6" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="4" id="8" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="5" id="1" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="6" id="3" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="7" id="5" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="8" id="7" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="9" id="9" order="-1"/>
     </tileset>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="22" fixedrot="true" fric="0.2" gid="6" id="73" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Portal" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="74" static="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="74" name="Portal" readable="false" shared="false">
         <anim across="2" down="2" durations="500,500,500" height="128" id="0" loop="true" name="Static" numframes="3" originx="16" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,64,32,64,32,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Static" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="26" fixedrot="true" fric="0.2" gid="7" id="111" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Portal 2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="112" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="112" name="Portal 2" readable="false" shared="false">
+        <anim across="2" down="2" durations="500,500,500" height="128" id="0" loop="true" name="Static 2" numframes="3" originx="16" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,64,32,64,32,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Static" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
@@ -173,6 +225,30 @@
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
     <tileset across="1" atlasID="0" desc="" down="1" id="86" name="Sand" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="102" name="sand block" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="118" name="sand block endPoint" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="endPoint" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="90" name="sand block left" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="92" name="sand block mid" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="91" name="sand block right" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="94" name="Sand left" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="95" name="Sand right" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="110" name="Sand torche" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="2" fixedrot="true" fric="0.2" gid="3" id="3" ignoreg="false" inertia="1.0" ldamp="0.0" mass="0.6" name="Scientist" oid="82392" pausable="true" physicsMode="0" rest="0.0" shared="true" sprite="4" static="false">
@@ -220,6 +296,7 @@
             <poly data="4,0,48,32,48,32,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Shoot Right" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <music atlasID="0" desc="" id="113" loop="true" name="Shoot" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <custom-block blocktag="custom-6" blocktype="ACTION" code=".say(&quot;Walking&quot;, &quot;_customBlock_SlowToMax&quot;, []);" desc="" global="false" gui="Slow Down %0 To Max Speed Using Rate %1" id="6" message="SlowToMax" name="SlowToMax" oid="-1" return="void" shared="false" snippetID="3">
         <blank name="Self" order="0" type="actor"/>
         <blank name="Rate" order="1" type="number"/>
@@ -230,6 +307,15 @@
     </custom-block>
     <tileset across="1" atlasID="0" desc="" down="1" id="75" name="Stone endPoint" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="0" data="endPoint" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="96" name="stone left" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="97" name="stone mid" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="98" name="stone right" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
     <tileset across="1" atlasID="0" desc="" down="1" id="27" name="Terre" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
@@ -285,6 +371,18 @@
     <tileset across="1" atlasID="0" desc="" down="1" id="81" name="Tree 6" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
+    <tileset across="2" atlasID="0" desc="" down="2" id="106" name="Tree dead" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="2" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="1" id="3" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="2" id="4" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="3" id="5" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="108" name="Vase" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="109" name="Vase 1" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
     <custom-block blocktag="custom-12" blocktype="ACTION" code=".say(&quot;Walking&quot;, &quot;_customBlock_WalkAccel&quot;, []);" desc="" global="false" gui="For %0 Set Walk Accel to %1" id="12" message="WalkAccel" name="WalkAccel" oid="-1" return="void" shared="false" snippetID="3">
         <blank name="Self" order="0" type="actor"/>
         <blank name="Accel" order="1" type="number"/>
@@ -299,6 +397,14 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="67" name="Water" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="128" id="0" loop="true" name="Animation 0" numframes="1" originx="64" originy="64" sync="false" version="2" width="128">
             <poly data="4,0,128,128,128,128,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="24" fixedrot="true" fric="0.2" gid="5" id="104" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Water Copy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="105" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="105" name="Water Copy" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Spike" numframes="1" originx="15" originy="16" sync="false" version="2" width="31">
+            <poly data="4,0,32,32,32,32,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
 </pack>

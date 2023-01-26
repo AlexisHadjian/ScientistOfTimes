@@ -105,17 +105,31 @@
             <group eventID="1" id="-1">
                 <if comment="false" x="26" y="40">
                     <group eventID="1" id="-1">
-                        <set-dxy comment="false" x="37" y="78">
+                        <play-sound4 comment="false" x="37" y="78">
+                            <int id="0" val="0"/>
+                            <sound eid="116" id="1"/>
+                        </play-sound4>
+                        <set-dxy comment="false" x="37" y="105">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <int id="2" val="-30"/>
                         </set-dxy>
-                        <if comment="false" x="37" y="105">
+                        <if comment="false" x="37" y="132">
                             <group eventID="3" id="-1">
-                                <setanim comment="false" x="48" y="148">
+                                <setanim comment="false" x="48" y="175">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="Jump Left"/>
                                 </setanim>
+                                <dolater comment="false" x="48" y="202">
+                                    <group eventID="3" id="-1">
+                                        <setanim comment="false" x="59" y="229">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="Idle Left"/>
+                                        </setanim>
+                                    </group>
+                                    <int id="0" val="0.4"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
                             </group>
                             <or comment="false" id="0" x="0" y="0">
                                 <eq comment="false" id="0" x="0" y="0">
@@ -132,12 +146,22 @@
                                 </eq>
                             </or>
                         </if>
-                        <if comment="false" x="37" y="187">
+                        <if comment="false" x="37" y="280">
                             <group eventID="3" id="-1">
-                                <setanim comment="false" x="48" y="230">
+                                <setanim comment="false" x="48" y="323">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="Jump Right"/>
                                 </setanim>
+                                <dolater comment="false" x="48" y="350">
+                                    <group eventID="3" id="-1">
+                                        <setanim comment="false" x="59" y="377">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="Idle Right"/>
+                                        </setanim>
+                                    </group>
+                                    <int id="0" val="0.4"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
                             </group>
                             <or comment="false" id="0" x="0" y="0">
                                 <eq comment="false" id="0" x="0" y="0">
@@ -166,7 +190,7 @@
                         </eq>
                     </and>
                 </if>
-                <set-val-5-2 comment="false" x="26" y="281">
+                <set-val-5-2 comment="false" x="26" y="440">
                     <false comment="false" id="0" x="0" y="0"/>
                 </set-val-5-2>
             </group>

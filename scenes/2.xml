@@ -11,42 +11,114 @@
     <terrainRegions/>
     <actors>
         <actor a="0.0" aid="2" c="false" group="3" id="3" name="Scientist 2" order="0" sx="1.0" sy="1.0" x="87" y="208" z="0"/>
-        <actor a="0.0" aid="3" c="false" group="4" id="55" name="Dino Trex 3" order="1" sx="1.4444444" sy="1.4444444" x="1870" y="309" z="0"/>
-        <actor a="0.0" aid="4" c="false" group="4" id="55" name="Dino Trex 4" order="2" sx="1.4444444" sy="1.4444444" x="1089" y="309" z="0"/>
-        <actor a="0.0" aid="8" c="false" group="5" id="66" name="Water 8" order="0" sx="1.0" sy="1.0" x="2016" y="360" z="2"/>
-        <actor a="0.0" aid="9" c="false" group="5" id="66" name="Water 9" order="1" sx="1.0" sy="1.0" x="2080" y="360" z="2"/>
-        <actor a="0.0" aid="10" c="false" group="5" id="66" name="Water 10" order="2" sx="1.0" sy="1.0" x="2464" y="392" z="2"/>
-        <actor a="0.0" aid="11" c="false" group="5" id="66" name="Water 11" order="3" sx="1.0" sy="1.0" x="2592" y="392" z="2"/>
-        <actor a="0.0" aid="12" c="false" group="5" id="66" name="Water 12" order="4" sx="1.0" sy="1.0" x="2712" y="392" z="2"/>
-        <actor a="0.0" aid="13" c="false" group="5" id="66" name="Water 13" order="5" sx="1.0" sy="1.0" x="2823" y="392" z="2"/>
-        <actor a="0.0" aid="14" c="false" group="5" id="66" name="Water 14" order="6" sx="1.0" sy="1.0" x="2942" y="392" z="2"/>
-        <actor a="0.0" aid="15" c="false" group="5" id="66" name="Water 15" order="7" sx="1.0" sy="1.0" x="3068" y="392" z="2"/>
-        <actor a="0.0" aid="16" c="false" group="5" id="66" name="Water 16" order="8" sx="1.0" sy="1.0" x="3168" y="392" z="2"/>
-        <actor a="0.0" aid="17" c="false" group="5" id="66" name="Water 17" order="9" sx="1.0" sy="1.0" x="5569" y="456" z="2"/>
-        <actor a="0.0" aid="18" c="false" group="5" id="66" name="Water 18" order="10" sx="1.0" sy="1.0" x="5715" y="455" z="2"/>
-        <actor a="0.0" aid="19" c="false" group="5" id="66" name="Water 19" order="11" sx="1.0" sy="1.0" x="5758" y="455" z="2"/>
-        <actor a="0.0" aid="20" c="false" group="5" id="66" name="Water 20" order="12" sx="1.0" sy="1.0" x="6232" y="455" z="2"/>
-        <actor a="0.0" aid="21" c="false" group="5" id="66" name="Water 21" order="13" sx="1.0" sy="1.0" x="6359" y="487" z="2"/>
-        <actor a="0.0" aid="22" c="false" group="4" id="55" name="Dino Trex 22" order="3" sx="1.4444444" sy="1.4444444" x="4159" y="313" z="0"/>
-        <actor a="89.93793" aid="23" c="false" group="6" id="73" name="Portal 23" order="4" sx="1.5625" sy="1.5625" x="93" y="196" z="0"/>
-        <actor a="0.0" aid="24" c="false" group="4" id="71" name="Boss 24" order="5" sx="1.0" sy="1.0" x="6573" y="377" z="0"/>
-        <actor a="0.0" aid="25" c="false" group="6" id="73" name="Portal 25" order="6" sx="1.4375" sy="1.4375" x="6906" y="301" z="0"/>
+        <actor a="89.93793" aid="23" c="false" group="6" id="73" name="Portal 23" order="1" sx="1.5625" sy="1.5625" x="93" y="196" z="0"/>
+        <actor a="0.0" aid="26" c="false" group="5" id="104" name="Water Copy 26" order="2" sx="1.0" sy="1.0" x="1280" y="416" z="0"/>
+        <actor a="0.0" aid="27" c="false" group="5" id="104" name="Water Copy 27" order="3" sx="1.0" sy="1.0" x="1310" y="416" z="0"/>
+        <actor a="0.0" aid="28" c="false" group="5" id="104" name="Water Copy 28" order="4" sx="1.0" sy="1.0" x="1340" y="416" z="0"/>
+        <actor a="0.0" aid="29" c="false" group="5" id="104" name="Water Copy 29" order="5" sx="1.0" sy="1.0" x="1371" y="416" z="0"/>
+        <actor a="0.0" aid="30" c="false" group="5" id="104" name="Water Copy 30" order="6" sx="1.0" sy="1.0" x="1401" y="416" z="0"/>
+        <actor a="0.0" aid="31" c="false" group="5" id="104" name="Water Copy 31" order="7" sx="1.0" sy="1.0" x="1431" y="416" z="0"/>
+        <actor a="0.0" aid="32" c="false" group="5" id="104" name="Water Copy 32" order="8" sx="1.0" sy="1.0" x="1463" y="416" z="0"/>
+        <actor a="0.0" aid="33" c="false" group="5" id="104" name="Water Copy 33" order="9" sx="1.0" sy="1.0" x="1493" y="416" z="0"/>
+        <actor a="0.0" aid="34" c="false" group="5" id="104" name="Water Copy 34" order="10" sx="1.0" sy="1.0" x="1523" y="416" z="0"/>
+        <actor a="0.0" aid="35" c="false" group="5" id="104" name="Water Copy 35" order="11" sx="1.0" sy="1.0" x="1554" y="416" z="0"/>
+        <actor a="0.0" aid="36" c="false" group="5" id="104" name="Water Copy 36" order="12" sx="1.0" sy="1.0" x="1584" y="416" z="0"/>
+        <actor a="0.0" aid="37" c="false" group="5" id="104" name="Water Copy 37" order="13" sx="1.0" sy="1.0" x="1614" y="416" z="0"/>
+        <actor a="0.0" aid="38" c="false" group="5" id="104" name="Water Copy 38" order="14" sx="1.0" sy="1.0" x="1634" y="416" z="0"/>
+        <actor a="0.0" aid="39" c="false" group="5" id="104" name="Water Copy 39" order="15" sx="1.0" sy="1.0" x="1664" y="416" z="0"/>
+        <actor a="0.0" aid="40" c="false" group="5" id="104" name="Water Copy 40" order="16" sx="1.0" sy="1.0" x="1694" y="416" z="0"/>
+        <actor a="0.0" aid="41" c="false" group="5" id="104" name="Water Copy 41" order="17" sx="1.0" sy="1.0" x="1856" y="417" z="0"/>
+        <actor a="0.0" aid="42" c="false" group="5" id="104" name="Water Copy 42" order="18" sx="1.0" sy="1.0" x="1886" y="417" z="0"/>
+        <actor a="0.0" aid="43" c="false" group="5" id="104" name="Water Copy 43" order="19" sx="1.0" sy="1.0" x="1916" y="417" z="0"/>
+        <actor a="0.0" aid="44" c="false" group="5" id="104" name="Water Copy 44" order="20" sx="1.0" sy="1.0" x="1947" y="417" z="0"/>
+        <actor a="0.0" aid="45" c="false" group="5" id="104" name="Water Copy 45" order="21" sx="1.0" sy="1.0" x="1977" y="417" z="0"/>
+        <actor a="0.0" aid="46" c="false" group="5" id="104" name="Water Copy 46" order="22" sx="1.0" sy="1.0" x="2007" y="417" z="0"/>
+        <actor a="0.0" aid="47" c="false" group="5" id="104" name="Water Copy 47" order="23" sx="1.0" sy="1.0" x="2039" y="417" z="0"/>
+        <actor a="0.0" aid="48" c="false" group="5" id="104" name="Water Copy 48" order="24" sx="1.0" sy="1.0" x="2069" y="417" z="0"/>
+        <actor a="0.0" aid="49" c="false" group="5" id="104" name="Water Copy 49" order="25" sx="1.0" sy="1.0" x="2099" y="417" z="0"/>
+        <actor a="0.0" aid="50" c="false" group="5" id="104" name="Water Copy 50" order="26" sx="1.0" sy="1.0" x="2130" y="417" z="0"/>
+        <actor a="0.0" aid="51" c="false" group="5" id="104" name="Water Copy 51" order="27" sx="1.0" sy="1.0" x="2160" y="417" z="0"/>
+        <actor a="0.0" aid="52" c="false" group="5" id="104" name="Water Copy 52" order="28" sx="1.0" sy="1.0" x="2190" y="417" z="0"/>
+        <actor a="0.0" aid="53" c="false" group="5" id="104" name="Water Copy 53" order="29" sx="1.0" sy="1.0" x="2210" y="417" z="0"/>
+        <actor a="0.0" aid="54" c="false" group="5" id="104" name="Water Copy 54" order="30" sx="1.0" sy="1.0" x="2240" y="417" z="0"/>
+        <actor a="0.0" aid="55" c="false" group="5" id="104" name="Water Copy 55" order="31" sx="1.0" sy="1.0" x="2270" y="417" z="0"/>
+        <actor a="0.0" aid="56" c="false" group="5" id="104" name="Water Copy 56" order="32" sx="1.0" sy="1.0" x="2299" y="417" z="0"/>
+        <actor a="0.0" aid="57" c="false" group="5" id="104" name="Water Copy 57" order="33" sx="1.0" sy="1.0" x="2330" y="417" z="0"/>
+        <actor a="0.0" aid="58" c="false" group="5" id="104" name="Water Copy 58" order="34" sx="1.0" sy="1.0" x="2360" y="417" z="0"/>
+        <actor a="0.0" aid="59" c="false" group="5" id="104" name="Water Copy 59" order="35" sx="1.0" sy="1.0" x="2390" y="417" z="0"/>
+        <actor a="0.0" aid="60" c="false" group="5" id="104" name="Water Copy 60" order="36" sx="1.0" sy="1.0" x="2422" y="417" z="0"/>
+        <actor a="0.0" aid="61" c="false" group="5" id="104" name="Water Copy 61" order="37" sx="1.0" sy="1.0" x="2452" y="417" z="0"/>
+        <actor a="0.0" aid="62" c="false" group="5" id="104" name="Water Copy 62" order="38" sx="1.0" sy="1.0" x="2482" y="417" z="0"/>
+        <actor a="0.0" aid="63" c="false" group="5" id="104" name="Water Copy 63" order="39" sx="1.0" sy="1.0" x="2513" y="417" z="0"/>
+        <actor a="0.0" aid="64" c="false" group="5" id="104" name="Water Copy 64" order="40" sx="1.0" sy="1.0" x="2543" y="417" z="0"/>
+        <actor a="0.0" aid="65" c="false" group="5" id="104" name="Water Copy 65" order="41" sx="1.0" sy="1.0" x="2573" y="417" z="0"/>
+        <actor a="0.0" aid="66" c="false" group="5" id="104" name="Water Copy 66" order="42" sx="1.0" sy="1.0" x="2593" y="417" z="0"/>
+        <actor a="0.0" aid="68" c="false" group="5" id="104" name="Water Copy 68" order="43" sx="1.0" sy="1.0" x="3296" y="353" z="0"/>
+        <actor a="0.0" aid="69" c="false" group="5" id="104" name="Water Copy 69" order="44" sx="1.0" sy="1.0" x="3326" y="353" z="0"/>
+        <actor a="0.0" aid="70" c="false" group="5" id="104" name="Water Copy 70" order="45" sx="1.0" sy="1.0" x="3356" y="353" z="0"/>
+        <actor a="0.0" aid="71" c="false" group="5" id="104" name="Water Copy 71" order="46" sx="1.0" sy="1.0" x="3387" y="353" z="0"/>
+        <actor a="0.0" aid="72" c="false" group="5" id="104" name="Water Copy 72" order="47" sx="1.0" sy="1.0" x="3417" y="353" z="0"/>
+        <actor a="0.0" aid="73" c="false" group="5" id="104" name="Water Copy 73" order="48" sx="1.0" sy="1.0" x="3447" y="353" z="0"/>
+        <actor a="0.0" aid="74" c="false" group="5" id="104" name="Water Copy 74" order="49" sx="1.0" sy="1.0" x="3479" y="353" z="0"/>
+        <actor a="0.0" aid="75" c="false" group="5" id="104" name="Water Copy 75" order="50" sx="1.0" sy="1.0" x="3509" y="353" z="0"/>
+        <actor a="0.0" aid="76" c="false" group="5" id="104" name="Water Copy 76" order="51" sx="1.0" sy="1.0" x="3539" y="353" z="0"/>
+        <actor a="0.0" aid="77" c="false" group="5" id="104" name="Water Copy 77" order="52" sx="1.0" sy="1.0" x="3570" y="353" z="0"/>
+        <actor a="0.0" aid="78" c="false" group="5" id="104" name="Water Copy 78" order="53" sx="1.0" sy="1.0" x="3600" y="353" z="0"/>
+        <actor a="0.0" aid="79" c="false" group="5" id="104" name="Water Copy 79" order="54" sx="1.0" sy="1.0" x="3630" y="353" z="0"/>
+        <actor a="0.0" aid="80" c="false" group="5" id="104" name="Water Copy 80" order="55" sx="1.0" sy="1.0" x="3650" y="353" z="0"/>
+        <actor a="0.0" aid="81" c="false" group="5" id="104" name="Water Copy 81" order="56" sx="1.0" sy="1.0" x="3680" y="353" z="0"/>
+        <actor a="0.0" aid="82" c="false" group="5" id="104" name="Water Copy 82" order="57" sx="1.0" sy="1.0" x="3710" y="353" z="0"/>
+        <actor a="0.0" aid="83" c="false" group="5" id="104" name="Water Copy 83" order="58" sx="1.0" sy="1.0" x="3740" y="353" z="0"/>
+        <actor a="0.0" aid="84" c="false" group="5" id="104" name="Water Copy 84" order="59" sx="1.0" sy="1.0" x="3770" y="353" z="0"/>
+        <actor a="0.0" aid="85" c="false" group="5" id="104" name="Water Copy 85" order="60" sx="1.0" sy="1.0" x="3800" y="353" z="0"/>
+        <actor a="0.0" aid="86" c="false" group="5" id="104" name="Water Copy 86" order="61" sx="1.0" sy="1.0" x="3831" y="353" z="0"/>
+        <actor a="0.0" aid="87" c="false" group="5" id="104" name="Water Copy 87" order="62" sx="1.0" sy="1.0" x="3861" y="353" z="0"/>
+        <actor a="0.0" aid="88" c="false" group="5" id="104" name="Water Copy 88" order="63" sx="1.0" sy="1.0" x="3891" y="353" z="0"/>
+        <actor a="0.0" aid="89" c="false" group="5" id="104" name="Water Copy 89" order="64" sx="1.0" sy="1.0" x="3923" y="353" z="0"/>
+        <actor a="0.0" aid="90" c="false" group="5" id="104" name="Water Copy 90" order="65" sx="1.0" sy="1.0" x="3953" y="353" z="0"/>
+        <actor a="0.0" aid="91" c="false" group="5" id="104" name="Water Copy 91" order="66" sx="1.0" sy="1.0" x="3983" y="353" z="0"/>
+        <actor a="0.0" aid="92" c="false" group="5" id="104" name="Water Copy 92" order="67" sx="1.0" sy="1.0" x="4014" y="353" z="0"/>
+        <actor a="0.0" aid="93" c="false" group="5" id="104" name="Water Copy 93" order="68" sx="1.0" sy="1.0" x="4044" y="353" z="0"/>
+        <actor a="0.0" aid="94" c="false" group="5" id="104" name="Water Copy 94" order="69" sx="1.0" sy="1.0" x="4074" y="353" z="0"/>
+        <actor a="0.0" aid="95" c="false" group="5" id="104" name="Water Copy 95" order="70" sx="1.0" sy="1.0" x="4094" y="353" z="0"/>
+        <actor a="0.0" aid="96" c="false" group="5" id="104" name="Water Copy 96" order="71" sx="1.0" sy="1.0" x="4124" y="353" z="0"/>
+        <actor a="0.0" aid="97" c="false" group="5" id="104" name="Water Copy 97" order="72" sx="1.0" sy="1.0" x="4154" y="353" z="0"/>
+        <actor a="0.0" aid="98" c="false" group="5" id="104" name="Water Copy 98" order="73" sx="1.0" sy="1.0" x="4184" y="353" z="0"/>
+        <actor a="0.0" aid="99" c="false" group="5" id="104" name="Water Copy 99" order="74" sx="1.0" sy="1.0" x="4215" y="353" z="0"/>
+        <actor a="0.0" aid="100" c="false" group="5" id="104" name="Water Copy 100" order="75" sx="1.0" sy="1.0" x="4245" y="353" z="0"/>
+        <actor a="0.0" aid="101" c="false" group="5" id="104" name="Water Copy 101" order="76" sx="1.0" sy="1.0" x="4275" y="353" z="0"/>
+        <actor a="0.0" aid="102" c="false" group="5" id="104" name="Water Copy 102" order="77" sx="1.0" sy="1.0" x="4295" y="353" z="0"/>
+        <actor a="0.0" aid="103" c="false" group="5" id="104" name="Water Copy 103" order="78" sx="1.0" sy="1.0" x="4325" y="353" z="0"/>
+        <actor a="0.0" aid="104" c="false" group="5" id="104" name="Water Copy 104" order="79" sx="1.0" sy="1.0" x="4355" y="353" z="0"/>
+        <actor a="0.0" aid="105" c="false" group="5" id="104" name="Water Copy 105" order="80" sx="1.0" sy="1.0" x="4386" y="354" z="0"/>
+        <actor a="0.0" aid="106" c="false" group="5" id="104" name="Water Copy 106" order="81" sx="1.0" sy="1.0" x="4417" y="354" z="0"/>
+        <actor a="0.0" aid="107" c="false" group="5" id="104" name="Water Copy 107" order="82" sx="1.0" sy="1.0" x="3488" y="262" z="0"/>
+        <actor a="0.0" aid="108" c="false" group="7" id="111" name="Portal 2 108" order="83" sx="1.5" sy="1.5" x="6859" y="263" z="0"/>
+        <actor a="0.0" aid="109" c="false" group="4" id="119" name="Momi 109" order="84" sx="1.0" sy="1.0" x="1129" y="324" z="0"/>
+        <actor a="0.0" aid="110" c="false" group="4" id="119" name="Momi 110" order="85" sx="1.0" sy="1.0" x="2322" y="297" z="0"/>
+        <actor a="0.0" aid="111" c="false" group="4" id="119" name="Momi 111" order="86" sx="1.0" sy="1.0" x="3740" y="232" z="0"/>
+        <actor a="0.0" aid="112" c="false" group="4" id="119" name="Momi 112" order="87" sx="1.0" sy="1.0" x="4243" y="233" z="0"/>
+        <actor a="0.0" aid="113" c="false" group="4" id="119" name="Momi 113" order="88" sx="1.0" sy="1.0" x="5333" y="295" z="0"/>
+        <actor a="0.0" aid="114" c="false" group="4" id="119" name="Momi 114" order="89" sx="1.0" sy="1.0" x="5948" y="295" z="0"/>
+        <actor a="0.0" aid="115" c="false" group="4" id="119" name="Momi 115" order="90" sx="1.0" sy="1.0" x="6622" y="297" z="0"/>
     </actors>
     <snippets/>
     <terrain>
-        <p pts="108,5952.0,160.0,6016.0,160.0,6016.0,192.0,6080.0,192.0,6080.0,384.0,6016.0,384.0,6016.0,416.0,5984.0,416.0,5984.0,448.0,5632.0,448.0,5632.0,416.0,5600.0,416.0,5600.0,384.0,5568.0,384.0,5568.0,416.0,5504.0,416.0,5504.0,448.0,5472.0,448.0,5472.0,464.0,5408.0,464.0,5408.0,448.0,5344.0,448.0,5344.0,416.0,5184.0,416.0,5184.0,384.0,5088.0,384.0,5088.0,416.0,5024.0,416.0,5024.0,464.0,4704.0,464.0,4704.0,448.0,4608.0,448.0,4608.0,416.0,4512.0,416.0,4512.0,384.0,4416.0,384.0,4416.0,352.0,4320.0,352.0,4320.0,320.0,4128.0,320.0,4128.0,256.0,3904.0,256.0,3904.0,288.0,3680.0,288.0,3680.0,320.0,3456.0,320.0,3456.0,352.0,2848.0,352.0,2848.0,320.0,2624.0,320.0,2624.0,288.0,2432.0,288.0,2432.0,400.0,1600.0,400.0,1600.0,256.0,1472.0,256.0,1472.0,288.0,1344.0,288.0,1344.0,368.0,1152.0,368.0,1152.0,352.0,512.0,352.0,512.0,320.0,352.0,320.0,352.0,352.0,0.0,352.0,0.0,576.0,6112.0,576.0,6112.0,0.0,4032.0,0.0,4032.0,64.0,4064.0,64.0,4064.0,160.0,4128.0,160.0,4128.0,192.0,4256.0,192.0,4256.0,224.0,4384.0,224.0,4384.0,256.0,4512.0,256.0,4512.0,288.0,4640.0,288.0,4640.0,256.0,4672.0,256.0,4672.0,224.0,4736.0,224.0,4736.0,192.0,5024.0,192.0,5024.0,224.0,5056.0,224.0,5056.0,256.0,5088.0,256.0,5088.0,288.0,5120.0,288.0,5120.0,320.0,5216.0,320.0,5216.0,288.0,5344.0,288.0,5344.0,256.0,5408.0,256.0,5408.0,224.0,5536.0,224.0,5536.0,192.0,5632.0,192.0,5632.0,160.0,5696.0,160.0,5696.0,128.0,5952.0,128.0" x="864.0" y="0.0"/>
-        <p pts="4,0.0,32.0,64.0,32.0,64.0,0.0,0.0,0.0" x="5760.0" y="416.0"/>
-        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="3168.0" y="288.0"/>
-        <p pts="8,64.0,64.0,64.0,0.0,0.0,0.0,0.0,256.0,544.0,256.0,544.0,32.0,416.0,32.0,416.0,64.0" x="0.0" y="320.0"/>
-        <p pts="4,64.0,0.0,0.0,0.0,0.0,32.0,64.0,32.0" x="5632.0" y="416.0"/>
-        <p pts="4,64.0,32.0,64.0,0.0,0.0,0.0,0.0,32.0" x="2656.0" y="224.0"/>
-        <p pts="4,64.0,0.0,0.0,0.0,0.0,32.0,64.0,32.0" x="3040.0" y="320.0"/>
-        <p pts="4,64.0,32.0,64.0,0.0,0.0,0.0,0.0,32.0" x="736.0" y="288.0"/>
-        <p pts="4,64.0,0.0,0.0,0.0,0.0,32.0,64.0,32.0" x="2784.0" y="288.0"/>
-        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="608.0" y="288.0"/>
-        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="2080.0" y="320.0"/>
-        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="2912.0" y="352.0"/>
-        <p pts="4,0.0,32.0,64.0,32.0,64.0,0.0,0.0,0.0" x="2528.0" y="224.0"/>
+        <p pts="112,3296.0,384.0,3296.0,160.0,3232.0,160.0,3232.0,288.0,3104.0,288.0,3104.0,320.0,3072.0,320.0,3072.0,352.0,2912.0,352.0,2912.0,384.0,2624.0,384.0,2624.0,448.0,1856.0,448.0,1856.0,384.0,1728.0,384.0,1728.0,448.0,1280.0,448.0,1280.0,384.0,64.0,384.0,64.0,320.0,0.0,320.0,0.0,576.0,6976.0,576.0,6976.0,0.0,704.0,0.0,704.0,288.0,768.0,288.0,768.0,160.0,800.0,160.0,800.0,128.0,832.0,128.0,832.0,96.0,2656.0,96.0,2656.0,128.0,2688.0,128.0,2688.0,160.0,2720.0,160.0,2720.0,288.0,2816.0,288.0,2816.0,256.0,2912.0,256.0,2912.0,224.0,2880.0,224.0,2880.0,192.0,2816.0,192.0,2816.0,32.0,4640.0,32.0,4640.0,64.0,4672.0,64.0,4672.0,96.0,4704.0,96.0,4704.0,160.0,4768.0,160.0,4768.0,96.0,4800.0,96.0,4800.0,64.0,4832.0,64.0,4832.0,32.0,5280.0,32.0,5280.0,64.0,5312.0,64.0,5312.0,96.0,5344.0,96.0,5344.0,192.0,5408.0,192.0,5408.0,96.0,5440.0,96.0,5440.0,64.0,5472.0,64.0,5472.0,32.0,5792.0,32.0,5792.0,64.0,5824.0,64.0,5824.0,96.0,5856.0,96.0,5856.0,192.0,5920.0,192.0,5920.0,96.0,5952.0,96.0,5952.0,64.0,5984.0,64.0,5984.0,32.0,6784.0,32.0,6784.0,64.0,6816.0,64.0,6816.0,96.0,6848.0,96.0,6848.0,128.0,6880.0,128.0,6880.0,160.0,6912.0,160.0,6912.0,352.0,5056.0,352.0,5056.0,384.0,5088.0,384.0,5088.0,416.0,5120.0,416.0,5120.0,448.0,4704.0,448.0,4704.0,416.0,4736.0,416.0,4736.0,384.0,4768.0,384.0,4768.0,256.0,4704.0,256.0,4704.0,288.0,4640.0,288.0,4640.0,320.0,4544.0,320.0,4544.0,352.0,4448.0,352.0,4448.0,384.0" x="0.0" y="0.0"/>
+        <p pts="4,64.0,32.0,64.0,0.0,0.0,0.0,0.0,32.0" x="4864.0" y="288.0"/>
+        <p pts="4,0.0,32.0,128.0,32.0,128.0,0.0,0.0,0.0" x="3680.0" y="160.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,640.0,32.0,640.0,0.0" x="1920.0" y="352.0"/>
+        <p pts="4,352.0,32.0,352.0,0.0,0.0,0.0,0.0,32.0" x="3488.0" y="288.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="1472.0" y="320.0"/>
+        <p pts="4,64.0,32.0,64.0,0.0,0.0,0.0,0.0,32.0" x="3552.0" y="128.0"/>
+        <p pts="4,96.0,32.0,96.0,0.0,0.0,0.0,0.0,32.0" x="3360.0" y="160.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="1344.0" y="352.0"/>
+        <p pts="4,352.0,32.0,352.0,0.0,0.0,0.0,0.0,32.0" x="4032.0" y="288.0"/>
+        <p pts="4,64.0,32.0,64.0,0.0,0.0,0.0,0.0,32.0" x="3136.0" y="160.0"/>
+        <p pts="4,96.0,32.0,96.0,0.0,0.0,0.0,0.0,32.0" x="2976.0" y="160.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="2944.0" y="256.0"/>
+        <p pts="4,0.0,32.0,64.0,32.0,64.0,0.0,0.0,0.0" x="1600.0" y="352.0"/>
+        <p pts="4,64.0,32.0,64.0,0.0,0.0,0.0,0.0,32.0" x="3904.0" y="256.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>
