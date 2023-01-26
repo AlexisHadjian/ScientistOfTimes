@@ -85,7 +85,7 @@
                             <second-actor comment="false" id="0" x="0" y="0"/>
                         </die>
                     </group>
-                    <int id="0" val="0.5"/>
+                    <int id="0" val="0.3"/>
                     <ACTOR eid="this" id="2"/>
                 </dolater>
             </group>
